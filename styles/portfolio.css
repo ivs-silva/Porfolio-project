@@ -1,10 +1,74 @@
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 70px;
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --main-font-button: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--main-font-family);
+  font-size: 72px;
   font-weight: bold;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font-family);
   font-size: 18px;
+}
+
+.hero {
+  background-color: black;
+  color: white;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/213/original/IMG_0772_1.jpg?1688482603");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  letter-spacing: 7.2px;
+  text-shadow: 10px 2px 4px rgb(9, 9, 9);
+  background: transparent;
+}
+.hero h2 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-shadow: 4px 1px 1px rgb(9, 9, 9);
+  background: transparent;
+}
+
+.hero p {
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  text-shadow: 2px 1px 1px rgb(9, 9, 9);
+  background: transparent;
+}
+
+.hero a {
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 5px;
+  font-family: var(--main-font-button);
+  font-weight: bold;
+  border-color: transparent;
+}
+
+.hero a:hover {
+  background: black;
+  color: white;
+  border-color: white;
+}
+
+.primary-ctn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+  margin: 276px 422px 276px 422px;
 }
