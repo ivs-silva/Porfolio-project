@@ -18,10 +18,15 @@ p {
   font-size: 18px;
 }
 
+body {
+  background-color: black;
+}
+
 .hero {
   background-color: black;
   color: white;
   text-align: center;
+  filter: grayscale(100%);
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/213/original/IMG_0772_1.jpg?1688482603");
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,4 +76,88 @@ p {
   align-items: center;
   gap: 33px;
   margin: 276px 422px 276px 422px;
+}
+
+.img-card {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  width: 1152px;
+  height: 280px;
+  filter: grayscale(100%);
+}
+
+.img-left {
+  display: flex;
+  flex-direction: row;
+  width: 329px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 25% 25%;
+}
+.img-center {
+  display: flex;
+  flex-direction: row;
+  width: 442px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-right {
+  display: flex;
+  flex-direction: row;
+  width: 301px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 0% 40%;
+}
+
+.img-left-secondr {
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 0% 80%;
+}
+.img-center-secondr {
+  display: flex;
+  flex-direction: row;
+  width: 386px;
+  height: 280px;
+  object-fit: cover;
+}
+.img-right-secondr {
+  display: flex;
+  flex-direction: row;
+  width: 356px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 0% 100%;
+}
+
+.img-left-thirdr {
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 20% 0%;
+}
+.img-center-thirdr {
+  display: flex;
+  flex-direction: row;
+  width: 386px;
+  height: 280px;
+  object-fit: cover;
+}
+.img-right-thirdr {
+  display: flex;
+  flex-direction: row;
+  width: 356px;
+  height: 280px;
+  object-fit: cover;
+  object-position: 0% 10%;
 }
