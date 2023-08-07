@@ -71,11 +71,11 @@ body {
 }
 
 .primary-ctn {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 33px;
-  margin: 276px 422px 276px 422px;
+  margin: 200px 422px 276px 422px;
 }
 
 .img-card {
@@ -162,13 +162,76 @@ body {
   object-position: 0% 10%;
 }
 
-@media (max-width: 700px) {
+.heroabout {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+.heroabout h1 {
+  letter-spacing: 7.2px;
+  gap: 34px;
+}
+.heroabout h2 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  background: transparent;
+}
+
+.heroabout h3 {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  color: #f65282;
+  line-height: 21.09px;
+  letter-spacing: 1.8px;
+  width: 102px;
+  height: 21px;
+  font-weight: 700;
+  top: 169px;
+  left: 740px;
+  border: 1px;
+  gap: 32px;
+}
+
+.heroabout p {
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  color: #ffffff;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  filter: none;
+  gap: 32px;
+}
+
+.heroabout a {
+  border-radius: 50px;
+  background-color: white;
+  color: #272142;
+  font-size: 14px;
+  line-height: 17.07px;
+  font-family: var(--main-font-button);
+  font-weight: bold;
+  letter-spacing: 1.8px;
+  border-color: transparent;
+  width: 200px;
+  top: 755px;
+  padding: 18px 30px 18px 30px;
+}
+
+.heroabout a:hover {
+  background: black;
+  color: white;
+  border-color: white;
+}
+
+@media (max-width: 900px) {
   .hero {
     background-color: black;
     color: white;
     text-align: left;
     filter: grayscale(100%);
-    background-size: 50%;
+    background-size: 100%;
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/213/original/IMG_0772_1.jpg?1688482603");
     background-repeat: no-repeat;
     background-size: auto;
@@ -201,9 +264,17 @@ body {
   .primary-ctn {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    gap: 33px;
+  }
+
+  .img-card {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 900px;
+    height: 250px;
+    filter: grayscale(100%);
   }
   .img-center-thirdr {
     display: flex;
