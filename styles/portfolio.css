@@ -225,6 +225,18 @@ body {
   border-color: white;
 }
 
+.herowork h1 {
+  letter-spacing: 7.2px;
+  gap: 34px;
+  color: white;
+  height: 84px;
+  top: 150px;
+  left: 546px;
+  font-weight: 700;
+  text-align: center;
+  size: 72px;
+}
+
 @media (max-width: 900px) {
   .hero {
     background-color: black;
