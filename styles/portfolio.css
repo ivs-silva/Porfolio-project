@@ -22,6 +22,12 @@ body {
   background-color: black;
 }
 
+.heronavbar {
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  letter-spacing: 7.2px;
+}
+
 .hero {
   background-color: black;
   color: white;
@@ -267,6 +273,7 @@ body {
   text-decoration: none;
   font-size: 18px;
   font-family: var(--main-font-family);
+  gap: 42px;
 }
 
 @media (max-width: 900px) {
