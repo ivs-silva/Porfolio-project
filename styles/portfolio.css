@@ -262,6 +262,13 @@ body {
   gap: 42px;
 }
 
+.herocontact a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: var(--main-font-family);
+}
+
 @media (max-width: 900px) {
   .hero {
     background-color: black;
