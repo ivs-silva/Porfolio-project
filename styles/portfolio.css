@@ -237,6 +237,31 @@ body {
   size: 72px;
 }
 
+.herocontact {
+  background-color: black;
+  color: white;
+  justify-content: center;
+  gap: 50px;
+}
+.herocontact h1 {
+  letter-spacing: 7.2px;
+  gap: 52px;
+  color: white;
+  font-weight: 700;
+  size: 72px;
+}
+
+.herocontact h3 {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  color: #f65282;
+  line-height: 21.09px;
+  letter-spacing: 1.8px;
+  font-weight: 700;
+  border: 1px;
+  gap: 42px;
+}
+
 @media (max-width: 900px) {
   .hero {
     background-color: black;
