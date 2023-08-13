@@ -291,6 +291,44 @@ body {
   gap: 42px;
 }
 
+.herofooter {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  font-weight: 500;
+  line-height: 18.75px;
+  width: 1900px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #282323;
+}
+.herofooter img {
+  width: 150px;
+  height: 22.47px;
+  top: 43.57px;
+  left: 140px;
+}
+.herofootercontact {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  font-weight: 500;
+  line-height: 18.75px;
+  width: 2000px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  background-color: #282323;
+}
+.herofootercontact img {
+  width: 150px;
+  height: 22.47px;
+  top: 43.57px;
+  left: 140px;
+}
+
 @media (max-width: 900px) {
   .hero {
     background-color: black;
